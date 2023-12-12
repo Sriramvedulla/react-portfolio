@@ -1,0 +1,25 @@
+.container {
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 50px;
+  width: 50%;
+  background-image: url("https://img.freepik.com/premium-photo/watercolor-painting-water-splash-with-colorful-bubbles-background_14117-10089.jpg?w=2000");
+  background-position: center;
+  background-size: cover;
+}
+.contact-me {
+  background-color: aquamarine;
+  padding-top: 15px;
+}
+.contact {
+  margin-top: 25px;
+}
+.row {
+  margin: 25px 85px 75px 100px;
+}
+.send-btn {
+  width: 100%;
+  line-height: 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
