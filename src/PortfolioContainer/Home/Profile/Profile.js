@@ -1,6 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import Typical from "react-typical";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
   return (
@@ -20,6 +21,9 @@ export default function Profile() {
               </a>
               <a href="https://twitter.com/SriramVedulla">
                 <i className="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sriram-vedulla-8955a1251">
+                <i class="fa fa-linkedin"></i>
               </a>
             </div>
           </div>
@@ -53,7 +57,9 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn"> Hire Me </button>
+            <Link to="/contact">
+              <button className="btn primary-btn"> Hire Me </button>
+            </Link>
             <a href="Sriramvresume.pdf" download="Sriramvresume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>

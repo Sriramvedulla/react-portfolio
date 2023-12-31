@@ -51,7 +51,7 @@
   box-shadow: 0 1px 0px 0px var(--white);
   border-radius: 50%;
   height: 340px;
-  width: 380px;
+  width: 400px;
   margin: 25px 80px 20px 80px;
 }
 .profile-picture-background {
@@ -68,12 +68,14 @@
   transition: 1s ease-out;
 }
 .colz .colz-icon i {
-  color: white;
-  padding: 8px;
+  color: rgb(197, 197, 197);
+  font-size: 17px;
+  padding: 6px;
 }
 .colz .colz-icon i:hover {
   transform: scale(1.5);
 }
+
 @media screen and (max-width: 1110px) {
   .profile-picture {
     margin: 0 0px 0 80px;
@@ -87,7 +89,6 @@
   .profile-options .btn {
     width: 120px;
     padding: 11px 0;
-    z-index: 700;
   }
 }
 @media screen and (max-width: 910px) {
